@@ -1,0 +1,58 @@
+p {
+	/*font-family: Architects Daughter*/
+	font-family: 'Architects Daughter', cursive;
+	font-size: 20px;
+	text-align: left;
+}
+
+h3 {
+	font-family: 'Architects Daughter', cursive;
+	font-size: 30px;
+}
+
+h1 {
+	font-size: 100px;
+	font-family: 'Architects Daughter', cursive;
+}
+
+h2 {
+	font-size: 50px;
+	font-family: 'Architects Daughter', cursive;
+}
+
+body {
+	background-image: url("images/background.jpeg");
+	opacity: 50%;
+}
+
+img {
+	height:60px;
+	width:60px;
+	border:2px solid black;
+	border-radius: 10px
+}
+
+.crystals {
+	float: left;
+}
+
+img:hover {
+	cursor: pointer;
+}
+
+img:active {
+	box-shadow: 1px 1px 5px black;
+}
+
+h1, h2 {
+	/*color:lightblue;*/
+	text-shadow: 2px 2px lightblue;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.stats p {
+	font-size: 25px;
+}
