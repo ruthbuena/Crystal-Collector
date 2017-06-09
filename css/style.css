@@ -16,14 +16,10 @@ h1 {
 }
 
 h2 {
-	font-size: 50px;
+	font-size: 40px;
 	font-family: 'Architects Daughter', cursive;
 }
 
-body {
-	background-image: url("images/background.jpeg");
-	opacity: 50%;
-}
 
 img {
 	height:60px;
@@ -55,4 +51,11 @@ h1, h2 {
 
 .stats p {
 	font-size: 25px;
+	text-align: right;
+}
+
+#winsdisplay,
+#lossesdisplay {
+	margin: 50px;
+	padding: 25px;
 }

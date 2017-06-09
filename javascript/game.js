@@ -1,3 +1,7 @@
+ $(document).ready(function (){
+
+
+
  // Random number to guess.
   var number = Math.floor((Math.random() * (120 - 19 +1)) + 19);
 
@@ -14,7 +18,8 @@
   var currentStreak = 0;
   var longestStreak = 0;
 
-  // Number to Guess
+
+  // // Number to Guess
   $(".numberdisplay").html(number);
 
   // Click for each crystal
@@ -37,7 +42,7 @@
   //Game reset
   function reset() {
     // New Random number
-    number = Math.floor((Math.random() * (120 -19 + 1)) 19);
+    number = Math.floor((Math.random() * (120 -19 + 1)) + 19);
 
     // Displays new number
     $(".numberdisplay").html(number);
@@ -73,11 +78,14 @@
       // Resets streak.
       currentStreak = 0
       // Displays the streak count
-      else if (guessTotal == number) {
+      } else if (guessTotal == number) {
       // Adds a win.
       wins++;
       // Displays the updated wins.
       $("#winsdisplay").html(wins);
       // Calls the reset function to reset the game.
       reset();
-  };
+  }
+}
+
+ });
